@@ -7,5 +7,10 @@
             "email": "mardenmc22@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pages\\" : "./"
+        }
+    }
 }
