@@ -1,0 +1,11 @@
+{
+    "name": "marden/pages",
+    "description": "Esse pacote \u0000 um teste",
+    "authors": [
+        {
+            "name": "M. Cavalcante",
+            "email": "mardenmc22@gmail.com"
+        }
+    ],
+    "require": {}
+}
