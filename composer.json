@@ -1,16 +1,23 @@
 {
-    "name": "marden/pages",
-    "description": "Esse pacote \u0000 um teste",
-    "authors": [
-        {
-            "name": "M. Cavalcante",
-            "email": "mardenmc22@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Modules\\Pages\\" : "./"
-        }
+  "name": "marden/pages",
+  "description": "Esse pacote \u0000 um teste",
+  "authors": [
+    {
+      "name": "M. Cavalcante",
+      "email": "mardenmc22@gmail.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Modules\\Pages\\": "./"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Modules\\Pages\\Providers\\PageServiceProvider"
+        ]
+      }
+    }
+  }
 }
